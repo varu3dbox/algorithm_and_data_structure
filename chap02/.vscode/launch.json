@@ -1,0 +1,156 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'even_enumeration'",
+            "cargo": {
+                "args": [
+                    "run",
+                    "--bin=even_enumeration",
+                    "--package=section_2"
+                ],
+                "filter": {
+                    "name": "even_enumeration",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'even_enumeration'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=even_enumeration",
+                    "--package=section_2"
+                ],
+                "filter": {
+                    "name": "even_enumeration",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'double_loop'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=double_loop",
+                    "--package=section_2"
+                ],
+                "filter": {
+                    "name": "double_loop",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'double_loop'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=double_loop",
+                    "--package=section_2"
+                ],
+                "filter": {
+                    "name": "double_loop",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'single_loop'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=single_loop",
+                    "--package=section_2"
+                ],
+                "filter": {
+                    "name": "single_loop",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'single_loop'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=single_loop",
+                    "--package=section_2"
+                ],
+                "filter": {
+                    "name": "single_loop",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'recent_point_to_problem'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=recent_point_to_problem",
+                    "--package=section_2"
+                ],
+                "filter": {
+                    "name": "recent_point_to_problem",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'recent_point_to_problem'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=recent_point_to_problem",
+                    "--package=section_2"
+                ],
+                "filter": {
+                    "name": "recent_point_to_problem",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
