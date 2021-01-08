@@ -11,8 +11,8 @@ fn main() {
         n: usize,
         points: [[f64; 2]; n]
     }
-    let x: Vec<f64> = points.clone().into_iter().map(|p| p[0]).collect();
-    let y: Vec<f64> = points.clone().into_iter().map(|p| p[1]).collect();
+    let x: Vec<f64> = points.iter().map(|p| p[0]).collect();
+    let y: Vec<f64> = points.iter().map(|p| p[1]).collect();
 
     // 求める値を十分大きい値で初期化する
     let mut minimum_dist: f64 = 100000000.0;
