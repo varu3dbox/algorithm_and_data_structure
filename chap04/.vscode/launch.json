@@ -1,0 +1,415 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'chap04'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=chap04",
+                    "--package=chap04"
+                ],
+                "filter": {
+                    "name": "chap04",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'chap04'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=chap04",
+                    "--package=chap04"
+                ],
+                "filter": {
+                    "name": "chap04",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'code_4_7'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=code_4_7",
+                    "--package=chap04"
+                ],
+                "filter": {
+                    "name": "code_4_7",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'code_4_7'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=code_4_7",
+                    "--package=chap04"
+                ],
+                "filter": {
+                    "name": "code_4_7",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'code_4_3'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=code_4_3",
+                    "--package=chap04"
+                ],
+                "filter": {
+                    "name": "code_4_3",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'code_4_3'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=code_4_3",
+                    "--package=chap04"
+                ],
+                "filter": {
+                    "name": "code_4_3",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'code_4_1'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=code_4_1",
+                    "--package=chap04"
+                ],
+                "filter": {
+                    "name": "code_4_1",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'code_4_1'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=code_4_1",
+                    "--package=chap04"
+                ],
+                "filter": {
+                    "name": "code_4_1",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'code_4_2'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=code_4_2",
+                    "--package=chap04"
+                ],
+                "filter": {
+                    "name": "code_4_2",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'code_4_2'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=code_4_2",
+                    "--package=chap04"
+                ],
+                "filter": {
+                    "name": "code_4_2",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'code_4_5'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=code_4_5",
+                    "--package=chap04"
+                ],
+                "filter": {
+                    "name": "code_4_5",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'code_4_5'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=code_4_5",
+                    "--package=chap04"
+                ],
+                "filter": {
+                    "name": "code_4_5",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'code_4_10'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=code_4_10",
+                    "--package=chap04"
+                ],
+                "filter": {
+                    "name": "code_4_10",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'code_4_10'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=code_4_10",
+                    "--package=chap04"
+                ],
+                "filter": {
+                    "name": "code_4_10",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'code_4_9'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=code_4_9",
+                    "--package=chap04"
+                ],
+                "filter": {
+                    "name": "code_4_9",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'code_4_9'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=code_4_9",
+                    "--package=chap04"
+                ],
+                "filter": {
+                    "name": "code_4_9",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'code_4_6'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=code_4_6",
+                    "--package=chap04"
+                ],
+                "filter": {
+                    "name": "code_4_6",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'code_4_6'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=code_4_6",
+                    "--package=chap04"
+                ],
+                "filter": {
+                    "name": "code_4_6",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'code_4_8'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=code_4_8",
+                    "--package=chap04"
+                ],
+                "filter": {
+                    "name": "code_4_8",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'code_4_8'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=code_4_8",
+                    "--package=chap04"
+                ],
+                "filter": {
+                    "name": "code_4_8",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'code_4_4'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=code_4_4",
+                    "--package=chap04"
+                ],
+                "filter": {
+                    "name": "code_4_4",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'code_4_4'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=code_4_4",
+                    "--package=chap04"
+                ],
+                "filter": {
+                    "name": "code_4_4",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
