@@ -1,0 +1,10 @@
+[package]
+name = "procon-book"
+version = "0.1.0"
+authors = ["varusan <subaru@varu3.me>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+proconio = "0.4.1"

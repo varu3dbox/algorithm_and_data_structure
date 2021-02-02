@@ -155,6 +155,43 @@
         {
             "type": "lldb",
             "request": "launch",
+            "name": "Debug executable 'coin_change'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=coin_change",
+                    "--package=chap05"
+                ],
+                "filter": {
+                    "name": "coin_change",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'coin_change'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=coin_change",
+                    "--package=chap05"
+                ],
+                "filter": {
+                    "name": "coin_change",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
             "name": "Debug executable 'code_5_4'",
             "cargo": {
                 "args": [
@@ -220,6 +257,43 @@
                 ],
                 "filter": {
                     "name": "code_5_6",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'code_5_7_2'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=code_5_7_2",
+                    "--package=chap05"
+                ],
+                "filter": {
+                    "name": "code_5_7_2",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'code_5_7_2'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=code_5_7_2",
+                    "--package=chap05"
+                ],
+                "filter": {
+                    "name": "code_5_7_2",
                     "kind": "bin"
                 }
             },
