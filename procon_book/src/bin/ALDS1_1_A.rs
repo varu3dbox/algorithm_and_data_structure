@@ -14,7 +14,6 @@ fn main() {
 
         while j > 0 && source[j - 1] > source[j] {
             source.swap(j - 1, j);
-            println!("{:?}", source);
             j -= 1;
         }
 
